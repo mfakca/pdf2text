@@ -1,6 +1,7 @@
 # pdf2text
 
 Klasör içerisindeki tüm PDF'leri metne dönüştürür.
+<br>
 
 ## 1. Kurulum:
 
@@ -12,6 +13,8 @@ Klasör içerisindeki tüm PDF'leri metne dönüştürür.
 * PIL
 * pytesseract
 * pdf2image
+
+<br>
 
 ## 2. Kullanım:
 
@@ -26,6 +29,8 @@ pdf2text(pdf_file_path = 'pdf', image_path = 'images', output_text_path = 'outpu
 **output_text_path:** Görseller üzerindeki metinleri txt formatında kaydedileceği klasörün yolu.
 
 **dpi:** Görüntünün kalitesini belirleyen parametre.
+
+<br>
 
 ## 3. Referans:
 * https://www.geeksforgeeks.org/python-reading-contents-of-pdf-using-ocr-optical-character-recognition/
