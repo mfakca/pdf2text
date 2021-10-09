@@ -12,7 +12,7 @@ pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tessera
 def pdf2text(pdf_file_path = 'pdf', image_path = 'images', output_text_path = 'outputs', dpi = 500):
     
     """
-    Parametreler:
+    #### Parametreler:
     
     pdf_file_path: PDF'lerin bulunduğu klasörün yolu.
 
@@ -22,7 +22,7 @@ def pdf2text(pdf_file_path = 'pdf', image_path = 'images', output_text_path = 'o
 
     dpi: Görüntünün kalitesini belirleyen parametre.
     
-    Çıktı:
+    #### Çıktı:
     
     Görseller: image_path içerisine kaydedilen, PDF'lerin her sayfasına ait görseller.
     
